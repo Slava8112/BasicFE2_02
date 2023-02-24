@@ -1,0 +1,46 @@
+body{
+    background-image: url("/media/5.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-position: inside;
+}
+table,th,td{
+    border: 1px solid blue;
+}
+table{
+    border-collapse: collapse;
+}
+.odd{
+    background-color: gray;
+}
+.even{
+    background-color: darkred;
+} */
+tr:nth-child(even){
+    background-color: dimgrey;
+}
+tr:nth-child(odd){
+    background-color: yellow;
+}
+tr:nth-child(4){
+    background-color: brown;
+}
+tr:nth-child(3){
+    background-color: whitesmoke;
+}
+tr:nth-child(6){
+    background-color: goldenrod;
+}
+/* tr:nth-child(2n+3){
+background-color: aquamarine;
+} */
+tr:first-child{
+    background-color: chocolate;
+}
